@@ -1,0 +1,59 @@
+<!-- <p>add-new-template works!</p>
+<div>
+    <form [formGroup]="templateList" (ngSubmit)="onSubmit()">
+        <fieldset class="fieldset1">
+
+            <fieldset class="fieldset2">
+                <input type="text" placeholder="Message Subject" class="input-title" formControlName="name" />
+
+                <hr class="dash-line">
+                <i class="fas fa-bold"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-italic"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-heading"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-strikethrough"></i>
+                &nbsp;&nbsp;&nbsp;<i class="vl"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-list-ol"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-list-ul"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-quote-left"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-link"></i>
+                &nbsp;&nbsp;&nbsp;<i class="far fa-image"></i>
+                &nbsp;&nbsp;&nbsp;<i class="vl"></i>
+                &nbsp;&nbsp;&nbsp;<i class="far fa-file-pdf"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-question-circle"></i>
+                &nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-left"></i>
+                <hr>
+                <textarea placeholder="Type your message here" formControlName="discription"></textarea>
+            </fieldset><br>
+            <div>
+            <label for="file">Files</label>
+            <label for ="tags" class = "title-padding">Tags</label><br>          
+                        <button class="btn-file" (click)="expandFile()"> <span class="fas fa-paperclip"></span> Attach a
+                    File</button>
+                    <span class = "button-padding">
+                    <button class="btn-file" > <span class="fas fa-tag"></span> Add Tag
+                        </button>
+                        </span>
+    
+                </div>
+            <div *ngIf=fileToggle>
+                <br>
+                <label for="file">Files</label><br><br>
+                <fieldset class="fieldset2">
+                    <p class="p-font">Drop or Paste Files Here</p>
+                    <input type="file" id = "fileSelect"/>
+
+                    <button class="btn-file" (click)="fileUpload()"> <span class="fas fa-plus"></span>Add Files</button>
+                    &nbsp;<button class="btn-file"> Select from Existing Files</button>
+
+                </fieldset>
+            </div>
+
+            <br><br>
+            <button type="submit" class="btn">Post Message</button>
+            &nbsp;<span>or</span>
+            &nbsp;<a class="cancel" routerLink = "view-Template">Cancel</a>
+
+        </fieldset>
+        
+    </form>
+</div> -->

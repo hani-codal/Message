@@ -1,0 +1,61 @@
+<div class="">
+    <div class="row header">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 new-message ">
+            <form [formGroup]="templateList" (ngSubmit)="onSubmit()">
+                <div>
+                    <span class="post-a-new-message">Post a New Message</span>
+                    <span class="padding-top"></span>
+                    <button class="button-background1 button-32-primary-default-icon" (click)="openDialog()"    >Switch to
+                        Message Template</button>
+                </div>
+                <br>
+                <div class="border-formate material container ">
+                    <input type="text" placeholder="Message Subject" class="input-title" formControlName="title"
+                        (keyup)="checkValue()" />
+                    <hr>
+                    <textarea placeholder="Type your message here" class="input-discription" formControlName="body"
+                        (keyup)="checkValue()"></textarea>
+                </div>
+
+                <br>
+                <p class="who-should-be-notifi ">Who should be notified?</p>
+                <mat-form-field class="example-chip-list mat-chip-input ">
+                    <mat-chip-list #chipList aria-label="Emp selection">
+                        <mat-chip *ngFor="let emp of notifyEmployees" [selectable]="selectable" [removable]="removable"
+                            (removed)="remove(emp)" data-letters="HJ">
+                            {{emp}}
+                            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                        </mat-chip>
+
+                        <input #notifyEmpInput [formControl]="notifyEmpCtrl" [matAutocomplete]="auto" class = "inputChip"
+                            [matChipInputFor]="chipList" [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                            (matChipInputTokenEnd)="add($event)" />
+                        <!-- <div class = "add-more-btn">Add More +</div>                                  -->
+                        <!-- <button
+                       class = "add-more-btn"
+                       (click) = "showSearchInput()">                            
+                             Add More +
+                       </button>  -->
+
+                    </mat-chip-list>
+                    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+                        <mat-option *ngFor="let emp of filteredEmps | async" [value]="emp">
+                            {{emp}}
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
+                <p class="files">Files</p>
+                <button class="button-background3" (click) ="openFileDialog()"> <span class="fas fa-paperclip"></span> Attach a
+                    File</button>
+                <br>
+                <span class="padding-left"></span>
+                <button type="submit" class="button-32-primary-default-icon2 button-background label"
+                    [disabled]="postMessage">Post Message</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</div>

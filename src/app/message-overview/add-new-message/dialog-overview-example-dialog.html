@@ -1,0 +1,29 @@
+<!-- <div> ......this is for seitch to template   .... </div> -->
+<div >
+    <div class = "margin-heading">
+        <p class = "switch-to-template">Switch to Template<i class="fa fa-times bg" (click)=" onNoClick()"></i></p>
+    </div>
+    <hr>
+    <div>
+        <p class = "content">Are you sure you want to switch to a template? Your current message will be discarded.</p>
+    </div>
+    <div class = "select-group ">Select Group:</div>
+    <div>
+        <select class = "select-background label ">
+            <option>Invitations</option>
+        </select>
+    </div>
+    <div>
+        <div class = "select-template">Select Template:</div>
+        <div>
+            <select class = "select-background label ">
+                <option>Setup Meeting</option>
+            </select>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <button class  = "cancel-button-32-regular-defau label button-background-cancel" (click)=" onNoClick()">Cancel</button>
+        <button class = " confirm-button-32-primary-defa btn2-label button-background">Discard & Open Template</button>
+    </div>
+</div>

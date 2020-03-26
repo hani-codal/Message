@@ -1,0 +1,118 @@
+.switch-to-template {
+    height: 20px;
+    width: 344px;
+    color: #34577A;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+  }
+
+  
+  .bg{
+    /* background-color: #66788A; */
+    padding-right: 40px;
+    height: 16px;
+    width: 16px;
+    float :right;
+  }
+  .margin-heading{
+      /* margin-top: 19px; */
+      margin-left: 25px;
+      margin-bottom: 17px;
+      margin-left: 0px;
+  }
+  .content {
+    height: 36px;
+    width: 317px;
+    color: #5A7089;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    letter-spacing: -0.04px;
+    line-height: 18px;
+  }
+  
+  hr{
+    border-top: 1px solid  #E4E7EB;
+    margin-left: 0px;; 
+  }
+  .select-group {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    height: 16px;
+    width: 270px;
+    color: #2B4C6D;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .label {
+    height: 14px;
+    width: 77.4px;
+    color: #435A6F;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+  }
+  .select-background {
+    height: 32px;
+    width: 320px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    background: linear-gradient(0deg, #F4F5F7 0%, #FFFFFF 100%);
+    box-shadow: inset 0 -1px 1px 0 rgba(67,90,111,0.09), inset 0 0 0 1px rgba(67,90,111,0.14);
+  }
+  .select-template {
+      margin-top: 20px;
+    height: 16px;
+    width: 270px;
+    color: #2B4C6D;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .cancel-button-32-regular-defau {
+      margin-left: 70px;
+      margin-right: 6.9px; 
+    height: 32px;
+    width: 72px;
+    border: none;
+  }
+  .confirm-button-32-primary-defa {
+   
+    
+    height: 32px;
+    width: 178px;
+  }
+  .button-background {
+    height: 32px;
+    width: 178px;
+    border: none;
+    border-radius: 3px;
+    background-color: #164FCB;
+    background: linear-gradient(0deg, #116AB8 0%, #0788DE 100%);
+    box-shadow: inset 0 -1px 1px 0 rgba(67,90,111,0.2), inset 0 0 0 1px rgba(0,34,66,0.2);
+  }
+  .button-background-cancel {
+    height: 32px;
+    width: 72px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    background: linear-gradient(0deg, #F4F5F7 0%, #FFFFFF 100%);
+    box-shadow: inset 0 -1px 1px 0 rgba(67,90,111,0.09), inset 0 0 0 1px rgba(67,90,111,0.14);
+  }
+  .btn2-label {
+    
+    color: #FFFFFF;
+    font-family: "SF Pro Text";
+   
+    text-align: center;
+  }

@@ -1,0 +1,172 @@
+/* a:link{
+    background-color:#1042DC;    
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px #1042DC;
+    border-radius: 5px;
+    color :white;
+}
+a:hover{
+    background-color: grey;
+    color: black;
+} */
+.messages {
+    height: 24px;
+    width: 89px;
+    color: #2B4C6D;
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.06px;
+    line-height: 24px;
+    padding-right: 10px;
+  }
+  .results {
+    height: 16px;
+    width: 56px;
+    color: #34577A;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding-right: 445px;
+  }
+  .header{
+    margin-top: 24px;
+  }
+  .group-4 {
+    margin-top: 16px;
+    height: 787px;
+    width: 870px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    background:white ;
+  }
+  .button-32-primary-default-icon {
+    height: 32px;
+    width: 168px;
+  }
+  .button-32-primary2-default-icon {
+    height: 32px;
+    width: 110px;
+  }
+  .message {
+    height: 174px;
+    width: 830px;
+  }
+  .monday-may-13-th {
+    height: 20px;
+    width: 124px;
+    color: #234361;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.05px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top : 26.76px;
+      }
+  .hr{
+     margin-left: 20px;
+  }
+  img {
+    border-radius: 50%;   
+  }
+.img-div{
+  padding-top: 20px;
+  padding-left: 40px;
+  float :left;
+  padding-right: 20px;
+  padding-bottom: 86px; 
+}
+  .subordinate-sk-us-p {
+    height: 20px;    
+    color: #2B4C6D;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.05px;
+    line-height: 20px;
+    margin-top:22px ;   
+    float: left;
+  }
+
+  .date-time{
+    float: right;
+  }
+  .months-ago {
+    height: 16px;   
+    color: #425A70;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 401px;
+    padding-right:2px ;
+  }
+
+  .dot{  
+      height:6px;
+      width: 6px;
+      display: inline-block;
+      border-radius: 50%;
+      background-color: #1070CA;
+      margin-top: 7px;
+      margin-left: 2px;
+    }    
+    .poppy-denyer-codal {
+      height: 18px;
+      width: 124px;
+      color: #4D657D;
+      font-family: "SF Pro Text";
+      font-size: 12px;
+      letter-spacing: -0.04px;
+      line-height: 18px;
+    }
+    .hide-btn{
+      margin-top: 16px;
+      margin-left: 2px;
+      background-color: white;
+      border: none;
+      outline: none;
+    }
+    .hey-marcus-got-a-re {
+      height: 40px;
+      width: 670px;
+      color: #4D657D;
+      font-family: "SF Pro Text";
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 74px;
+      float: left;
+    }
+    .last-reply-marcus-b {
+      height: 18px;
+      width: 132px;
+      color: #425A70;
+      font-family: "SF Pro Text";
+      font-size: 12px;
+      letter-spacing: -0.04px;
+      line-height: 18px;
+      text-align: right;
+      margin-left: 631px;    
+      }
+    .bottom-msg-div{
+      padding-top: 29px;
+      float: right;   
+      padding-bottom: 50px;  
+      }
+    .replies {
+      padding-left: 15px;
+      height: 18px;
+      width: 52px;
+      color: #425A70;
+      font-family: "SF Pro Text";
+      font-size: 12px;
+      letter-spacing: -0.04px;
+      line-height: 18px;
+      text-align: right;
+    }

@@ -1,0 +1,56 @@
+<div>
+    <div class="">
+        <div class="row header">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <span class="messages">Messages</span>
+                    <span class="results">8-results</span>
+                    <button routerLink='view-Template' class="button-blue button-32-primary-default-icon ">New Message
+                        Template</button>
+                    &nbsp;&nbsp;<button routerLink='add-New-Message'
+                        class="button-blue button-32-primary2-default-icon ">New Message</button>
+                    <div class="group-4">
+                        <div class="message" *ngFor = "let i of item">
+                            
+                            <div class="monday-may-13-th">Monday, May 13th</div>
+                            <!-- <hr class="hr"> -->
+                            <div class="img-div">
+                                <img src="img1.png" alt="Demo">
+                            </div>
+                            <div>
+                                <div class="subordinate-sk-us-p">Weekly meeting<br><span
+                                        class="poppy-denyer-codal">poppy-denyer-codal</span></div>
+                                <!-- <div class="poppy-denyer-codal">poppy-denyer-codal</div> -->
+                                <div class="date-time">
+                                    <div class="months-ago">6 months ago
+                                        <span class="dot"></span>
+                                        <span>
+                                            <button mat-button [matMenuTriggerFor]="beforeMenu" class="hide-btn">
+                                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                            </button>
+                                            <mat-menu #beforeMenu="matMenu" xPosition="before">
+                                                <button mat-menu-item>Reply</button>
+                                                <button mat-menu-item>Mark thread as read</button>
+                                            </mat-menu>
+                                        </span>
+                                    </div>
+                                </div>                                
+                                <div class = "hey-marcus-got-a-re">Hey Marcus, Got a reply and the plugin fixed the issue:
+                                     The issue has now been fixed. The issue was occurring when the google API would not 
+                                     return a zip-code for the warehouse that was chose, maecenas efficitur pretium ligula.</div>
+                                </div>
+                            <div class = "bottom-msg-div">
+                                <div class = "last-reply-marcus-b">Last reply: Marcus Boni<span class = "replies">3 Replies</span></div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+</div>
